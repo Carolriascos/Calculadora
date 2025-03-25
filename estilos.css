@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-image: url(Fondos.jpg);
+    background-size: cover;
+     background-repeat: no-repeat;
+form {
+   position: relative;
+   top: 200px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #000000;
+    box-shadow: 7px 7px 4px 0 rgba(255, 255, 255, 0.5);
+
+}
+
+#titulo{
+    text-align: center;
+    position: relative;
+   top: 10px;
+   color: aliceblue;    
+   text-shadow: 3px 3px 3px rgb(0, 6, 95);
+   height: 70px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgb(252, 252, 252);
+
+}
+
+#op1{
+    height: 30px;
+    width: 200px;
+}
+
+#operador{
+    height: 30px;
+    width: 200px;
+}
+#op2{
+    height: 30px;
+    width: 200px;
+}
+button {
+    width: 70px;
+    padding: 10px;
+    background: #0044ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+        box-shadow: 3px 3px 4px 0 rgba(247, 247, 247, 0.5);
+
+}
+
+.resultado {
+  text-align: center;
+    position: relative;
+    top:300px;
+    left: 630px;
+    border-radius: 5px;
+    background-color: white;
+    width: 400px;
+    font-size: 40px;
+    box-shadow: 7px 7px 4px 0 rgba(0, 0, 0, 0.678);
+
+}
+}
